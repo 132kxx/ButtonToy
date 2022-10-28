@@ -8,12 +8,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    var generator = UINotificationFeedbackGenerator()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button  {
+                self.generator.notificationOccurred(.success)
+            } label: {
+                Text("탭")
+            }
+            .buttonStyle(MyButtonStyle())
+            
+            Button  {
+                //
+            } label: {
+                Text("롱탭")
+            }
+            
+            Button  {
+                //
+            } label: {
+                Text("축소")
+            }
+            
+            Button  {
+                //
+            } label: {
+                Text("회전")
+            }
+            
+            Button  {
+                //
+            } label: {
+                Text("블러")
+            }
         }
         .padding()
     }

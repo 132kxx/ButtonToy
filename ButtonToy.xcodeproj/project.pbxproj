@@ -11,6 +11,7 @@
 		B4B54771290B96510062C535 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B54770290B96510062C535 /* ContentView.swift */; };
 		B4B54773290B96520062C535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B54772290B96520062C535 /* Assets.xcassets */; };
 		B4B54777290B96520062C535 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B54776290B96520062C535 /* Preview Assets.xcassets */; };
+		B4B5477E290B96D50062C535 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5477D290B96D50062C535 /* MyButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B4B54772290B96520062C535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4B54774290B96520062C535 /* ButtonToy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ButtonToy.entitlements; sourceTree = "<group>"; };
 		B4B54776290B96520062C535 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4B5477D290B96D50062C535 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				B4B5476E290B96510062C535 /* ButtonToyApp.swift */,
 				B4B54770290B96510062C535 /* ContentView.swift */,
+				B4B5477D290B96D50062C535 /* MyButtonStyle.swift */,
 				B4B54772290B96520062C535 /* Assets.xcassets */,
 				B4B54774290B96520062C535 /* ButtonToy.entitlements */,
 				B4B54775290B96520062C535 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4B54771290B96510062C535 /* ContentView.swift in Sources */,
+				B4B5477E290B96D50062C535 /* MyButtonStyle.swift in Sources */,
 				B4B5476F290B96510062C535 /* ButtonToyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +266,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ButtonToy/ButtonToy.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ButtonToy/Preview Content\"";
+				DEVELOPMENT_TEAM = JXXZU5QJFC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -298,9 +304,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ButtonToy/ButtonToy.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ButtonToy/Preview Content\"";
+				DEVELOPMENT_TEAM = JXXZU5QJFC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
