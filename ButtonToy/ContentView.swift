@@ -8,42 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    var generator = UINotificationFeedbackGenerator()
-    
     var body: some View {
-        VStack {
-            Button  {
-                self.generator.notificationOccurred(.success)
-            } label: {
-                Text("탭")
-            }
-            .buttonStyle(MyButtonStyle())
-            
-            Button  {
-                //
-            } label: {
-                Text("롱탭")
-            }
-            
-            Button  {
-                //
-            } label: {
-                Text("축소")
-            }
-            
-            Button  {
-                //
-            } label: {
-                Text("회전")
-            }
-            
-            Button  {
-                //
-            } label: {
-                Text("블러")
+        NavigationView {
+            List {
+                NavigationLink("Button", destination: ButtonView())
+                NavigationLink("Textfield", destination: TextfieldView())
             }
         }
-        .padding()
     }
 }
 
